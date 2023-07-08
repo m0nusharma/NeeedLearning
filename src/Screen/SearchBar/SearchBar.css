@@ -1,0 +1,7 @@
+.searchBr{
+  border: 1px solid #dcdcdc;
+  width: 50%;
+}
+.form-control:focus{
+  box-shadow: none !important;
+}

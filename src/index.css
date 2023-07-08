@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+.middle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-control:focus{
+  box-shadow:#fff;
+}

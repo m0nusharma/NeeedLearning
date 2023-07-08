@@ -1,0 +1,31 @@
+.CardOne{
+    background-color:#5bc1ef !important;
+    border: none !important;
+    height:100px !important;
+}
+
+.CardTwo{
+    background-color: #f87668 !important;
+    border: none !important;
+    height:100px !important;
+}
+
+.CardThree{
+    background-color: #97d2d7 !important;
+    border: none !important;
+    height:200px !important;
+}
+.CardMid{
+    background-color: #5ebaaf !important;
+    border: none !important;
+}
+
+.CardLest{
+    background-color: #3a8ef0 !important;
+    border: none !important;
+}
+
+.imageImport{
+    height: 20px;
+    right:20px
+}
