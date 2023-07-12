@@ -28,4 +28,16 @@
 }
 .LeftSideBar .mainbotton{
   width: 100%;
+  
 }
+
+.LeftSideBar::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width:991px ) {
+  .LeftSideBar{
+   margin-top: 40px !important;
+  }
+}
+
