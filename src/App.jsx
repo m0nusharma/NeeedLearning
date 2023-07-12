@@ -40,7 +40,6 @@ const App = () => {
         <CardListing />
         <MiniCard />
         <DateTime title="Select Date/Time"/>
-     
         <DayTime />                 
         <DayTime />                 
         <DayTime />                 

@@ -5,7 +5,7 @@ import Button from "../../Componemts/Button/Button";
 const SearchBar = () => {
   return (
     <div className="parentSearch center">
-    <div className=" d-flex justify-content-between searchBr rounded-5 ">
+    <div className=" d-flex flex-wrap justify-content-between searchBr rounded-5 ">
     <div className="d-flex">
     <i className="fa-solid fa-magnifying-glass text-dark m-3 "></i>
       <input
