@@ -1,0 +1,17 @@
+.bigcard {
+  background-color: #5ebaaf !important;
+  border: none !important;
+}
+.mediaaa{
+    height:190px;
+    transition: all 500ms;
+    left: 50%;
+    transform: translate(-50%);
+}
+@media only screen and (max-width:800px ) {
+  .mediaaa {
+    height: 80px;
+  }
+}
+
+

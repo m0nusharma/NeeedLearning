@@ -24,8 +24,27 @@
     background-color: #3a8ef0 !important;
     border: none !important;
 }
+.CardLestTwo{
+    background-color: #3a8ef0 !important;
+    border: none !important;
+}
 
 .imageImport{
     height: 20px;
     right:20px
+
 }
+.abcd{
+    z-index: 1;
+}
+
+@media only screen and (max-width:767px ) {
+    .bigcard{
+    margin-top:10px ;
+    }
+
+    .CardLest{
+        margin-top: 20px;
+    }
+  }
+

@@ -8,7 +8,7 @@ const CardCustm = ({image,title,cstmStyle}) => {
         src={image}
         alt=""
       />
-      <p className="m-0">{title}</p>
+      <p className="m-0 fw-bolder">{title}</p>
     </div>
   );
 };

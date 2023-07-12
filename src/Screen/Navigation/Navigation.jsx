@@ -11,7 +11,7 @@ const Navigation = () => {
     <Navbar
       collapseOnSelect
       expand="lg"
-      className="bg-body-tertiary"
+      className=""
       data-bs-theme="light"
     >
       <Container>
@@ -30,7 +30,7 @@ const Navigation = () => {
           </Nav>
         </Navbar.Collapse>
       </Container>
-    </Navbar>
+    </Navbar> 
   );
 };
 
