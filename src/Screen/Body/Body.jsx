@@ -32,10 +32,10 @@ const Body = () => {
       <div className="col-md-2 ">
         <div className="vstack h-100 gap-3">
           <div className="card CardLest h-50 middle">
-          <h6 className="mb-0 fw-bolder"> UI/UX Design</h6>
+          <h6 className="mb-0 fw-bolder "> UI/UX Design</h6>
           </div>
           <div className="card CardLestTwo  h-50 middle">
-          <h6 className="mb-0 fw-bolder"> Web/Mobile</h6>
+          <h6 className="mb-0 fw-bolder"> Web/ Mobile</h6>
           </div>
         </div>
       </div>

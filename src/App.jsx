@@ -11,12 +11,13 @@ import CardListing from './Screen/CardListing/CardListing'
 import MiniCard from './Screen/MiniCard/MiniCard'
 import DateTime from './Screen/Date/DateTime'
 import DayTime from "./Screen/DayTime/DayTime";
+import Button from "./Componemts/Button/Button";
+
 
 
 const App = () => {
   return (
-    <div className="">
-      <img src={bg} alt="bg" className="bg" />
+  
       <div className="row m-0 ">
         <div className="col-lg-9 p-0">
           <Navigation
@@ -33,22 +34,27 @@ const App = () => {
             <Body />
           </div>
         </div>
-        <div className="LeftSideBar col-lg-3 p-0  overflow-auto">
+        <div className="LeftSideBar col-lg-3 p-0 overflow-auto">
         <LeftHeading />
         <div className="px-5">
         <CardListing />
         <MiniCard />
-        <DateTime />
+        <DateTime title="Select Date/Time"/>
+     
         <DayTime />                 
         <DayTime />                 
         <DayTime />                 
         <DayTime />                 
         <DayTime />                 
         <DayTime /> 
-        </div>                
+        <DateTime title="Book Using Calender"/> 
+        <Button item="Book Now"/>
+        <br/>
+        <br/>
+        <br/>
+        </div> 
         </div>
       </div>
-    </div>
   );
 };
 
