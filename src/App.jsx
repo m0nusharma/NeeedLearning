@@ -20,11 +20,7 @@ const App = () => {
   
       <div className="row m-0 ">
         <div className="col-lg-9 p-0">
-          <Navigation
-            className="float-end"
-            title="Check Website"
-            titletwo="clients"
-          />
+       
           <div className="container px-5">
             <div className=" text-center">
               <Text />
